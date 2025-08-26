@@ -1,11 +1,7 @@
 conexao.php
 
-/.vscode/
-/.idea/
-/*.log
+.vscode/
+.idea/
+*.log
 *.DS_Store
 Thumbs.db
-
-*.php~
-
-.env
