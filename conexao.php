@@ -1,12 +1,12 @@
 <?php
-$host = "localhost";
-$user = "root";
-$pass = "";
-$db = "cadastro";
+$host = getenv('DB_HOST') ?: 'localhost';
+$user = getenv('DB_USER') ?: 'seu_usuario';
+$password = getenv('DB_PASS') ?: 'sua_senha';
+$database = getenv('DB_NAME') ?: 'seu_banco';
 
-$conn = new mysqli($host, $user, $pass, $db);
+$mysqli = new mysqli($host, $user, $password, $database);
 
-if ($conn->connect_error) {
-    die("Falha na conexão: " . $conn->connect_error);
+if ($mysqli->connect_error) {
+    die('Erro na conexão (' . $mysqli->connect_errno . '): ' . $mysqli->connect_error);
 }
 ?>
