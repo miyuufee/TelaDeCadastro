@@ -1,35 +1,41 @@
-# Sistema de Gerenciamento e Cadastro de Usuários em PHP
+# Tela de Login com Cadastro de Usuários
 
-Este projeto é um sistema simples de gerenciamento de usuários desenvolvido em PHP, com funcionalidades básicas de CRUD (Criar, Ler, Atualizar e Deletar).
+Este projeto é uma aplicação simples em **PHP** que implementa uma tela de login e funcionalidades básicas de **CRUD de usuários** (criar, listar, editar e excluir).  
 
-## Funcionalidades
+## 📌 Funcionalidades
 
-- Conexão com banco de dados MySQL (`conexao.php`)
-- Listagem de usuários (`listar_usuarios.php`)
-- Cadastro e edição de usuários (`form_usuario.php` e `salvar_usuario.php`)
-- Exclusão de usuários (`excluir_usuario.php`)
-- Página inicial (`index.php`)
+- **Login de usuário** (página inicial `index.php`)
+- **Cadastro de usuários** via formulário (`form_usuario.php`)
+- **Listagem de usuários** (`listar_usuarios.php`)
+- **Edição de informações de usuários** (via `form_usuario.php`)
+- **Exclusão de usuários** (`excluir_usuario.php`)
+- **Persistência em banco de dados** utilizando `conexao.php`
+- **Salvar usuários** (inserção/atualização) via `salvar_usuario.php`
 
-## Como Usar
+## 📂 Estrutura do Projeto
 
-1. Clone o repositório:
+tela_de_login/
+├── conexao.php # Script de conexão com o banco de dados
+├── excluir_usuario.php # Exclusão de usuários
+├── form_usuario.php # Formulário para cadastro/edição
+├── index.php # Tela de login
+├── listar_usuarios.php # Listagem de usuários cadastrados
+└── salvar_usuario.php # Inserção/atualização de usuários
+
+## 🚀 Tecnologias Utilizadas
+
+- **PHP** (lógica do sistema)
+- **MySQL** (armazenamento dos dados)
+- **HTML/CSS** (estrutura e estilo das páginas)
+
+## ⚙️ Pré-requisitos
+
+- Servidor web local (ex: [XAMPP](https://www.apachefriends.org/) ou similar)  
+- PHP instalado
+- MySQL configurado
+
+## 🛠️ Como executar
+
+1. Clone este repositório:
    ```bash
-   git clone <URL_DO_REPOSITORIO>
-
----
-
-### **.gitignore**
-
-```gitignore
-# Ignorar arquivos de configuração sensíveis
-conexao.php
-
-# Ignorar arquivos temporários do PHP
-*.log
-*.cache
-*.tmp
-*.bak
-
-# Ignorar diretórios de cache do sistema
-/tmp
-/vendor/
+   git clone https://github.com/miyuufee/TelaDeCadastro.git
