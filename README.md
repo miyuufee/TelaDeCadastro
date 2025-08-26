@@ -16,10 +16,15 @@ Este projeto é uma aplicação simples em **PHP** que implementa uma tela de lo
 
 tela_de_login/
 ├── conexao.php # Script de conexão com o banco de dados
+
 ├── excluir_usuario.php # Exclusão de usuários
+
 ├── form_usuario.php # Formulário para cadastro/edição
+
 ├── index.php # Tela de login
+
 ├── listar_usuarios.php # Listagem de usuários cadastrados
+
 └── salvar_usuario.php # Inserção/atualização de usuários
 
 ## 🚀 Tecnologias Utilizadas
