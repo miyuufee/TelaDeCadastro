@@ -39,3 +39,15 @@ tela_de_login/
 1. Clone este repositório:
    ```bash
    git clone https://github.com/miyuufee/TelaDeCadastro.git
+   
+2. Coloque a pasta TelaDeCadastro dentro do diretório htdocs (XAMPP) ou equivalente no seu servidor local.
+
+3.Crie um banco de dados no MySQL e configure as credenciais em conexao.php.
+
+4. Acesse no navegador:
+http://localhost/TelaDeCadastro
+
+## 📖 Observações
+
+- Certifique-se de ajustar o script **conexao.php** com usuário, senha e nome do banco de dados corretos.
+- Este projeto é um exemplo **básico** e pode ser expandido para incluir validações mais robustas, hash de senhas e níveis de permissão.
