@@ -15,6 +15,7 @@ Este projeto é uma aplicação simples em **PHP** que implementa uma tela de lo
 ## 📂 Estrutura do Projeto
 
 tela_de_login/
+
 ├── conexao.php # Script de conexão com o banco de dados
 
 ├── excluir_usuario.php # Exclusão de usuários
@@ -47,12 +48,9 @@ tela_de_login/
    
 2. Coloque a pasta TelaDeCadastro dentro do diretório htdocs (XAMPP) ou equivalente no seu servidor local.
 
-3.Crie um banco de dados no MySQL e configure as credenciais em conexao.php.
+3. Crie um banco de dados no MySQL e configure as credenciais em **exemplo_conexao.php**.
 
-4. Acesse no navegador:
+4. Altere o arquivo **exemplo_conexao.php** para somente **conexao.php**.
+
+5. Acesse no navegador:
 http://localhost/TelaDeCadastro
-
-## 📖 Observações
-
-- Certifique-se de ajustar o script **conexao.php** com usuário, senha e nome do banco de dados corretos.
-- Este projeto é um exemplo **básico** e pode ser expandido para incluir validações mais robustas, hash de senhas e níveis de permissão.
