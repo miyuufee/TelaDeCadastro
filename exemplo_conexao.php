@@ -7,7 +7,7 @@ $database = 'seu_banco';
 
 $mysqli = new mysqli($host, $user, $password, $database);
 
-if ($mysqli->connect_error) {
-    die('Erro na conexão (' . $mysqli->connect_errno . '): ' . $mysqli->connect_error);
+if ($conn->connect_error) {
+    die('Erro na conexão (' . $conn->connect_errno . '): ' . $conn->connect_error);
 }
 ?>
